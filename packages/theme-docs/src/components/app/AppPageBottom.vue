@@ -31,7 +31,7 @@ export default {
       'githubUrls'
     ]),
     link () {
-      if (!this.settings.github) {
+      if (!this.settings.github || this.settings.hideGithubLinks) {
         return
       }
 
