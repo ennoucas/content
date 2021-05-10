@@ -1,11 +1,8 @@
 {
-  "name": "@ennoucas/nuxt-content",
-  "version": "1.0.0",
+  "name": "nuxt-content",
+  "private": true,
   "description": "Write your content inside your Nuxt app",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ennoucas/content.git"
-  },
+  "repository": "nuxt/content",
   "license": "MIT",
   "contributors": [
     {
