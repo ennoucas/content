@@ -1,6 +1,5 @@
 {
-  "name": "nuxt-content",
-  "private": true,
+  "name": "@ennoucas/nuxt-content",
   "description": "Write your content inside your Nuxt app",
   "repository": "nuxt/content",
   "license": "MIT",
