@@ -40,7 +40,15 @@ export default {
   },
   head () {
     return {
-      title: 'Releases'
+      title: 'Releases',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Releases'
+        }
+      ]
     }
   },
   computed: {

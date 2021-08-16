@@ -53,7 +53,7 @@
               <IconTwitter class="w-5 h-5" />
             </a>
             <a
-              v-if="settings.github"
+              v-if="settings.github && !settings.hideGithubLinks"
               :href="githubUrls.repo"
               target="_blank"
               rel="noopener noreferrer"
